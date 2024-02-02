@@ -1,0 +1,30 @@
+:root {
+  --base-font-size: 16px;
+  --base-text-color: rgba(0, 0, 0, 0.9);
+}
+
+html {
+  font-size: var(--base-font-size);
+  line-height: 1.25;
+}
+
+// Default to border-box
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+
+  color: var(--base-text-color);
+  -webkit-font-smoothing: antialiased;
+}

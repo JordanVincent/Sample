@@ -1,0 +1,17 @@
+{
+  "name": "muir",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client:dev": "yarn workspace client dev",
+    "server:dev": "yarn workspace server dev",
+    "dev": "yarn client:dev & yarn server:dev"
+  },
+  "workspaces": [
+    "client",
+    "server",
+    "client-server-shared"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
